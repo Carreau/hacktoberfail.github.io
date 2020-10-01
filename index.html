@@ -1,1 +1,191 @@
-In progress
+<html>
+<header>
+<!-- Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+
+<!-- CSS Reset -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+
+<!-- Milligram CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
+
+
+<style>
+.green-glow {
+    color: #00af00;
+    text-shadow: 0 0 5px #57e663DD;
+}
+.red-glow {
+    color: #d80f0f;
+    text-shadow: 0 0 5px #d80f0fDD;
+}
+
+li > p {
+    display: inline;
+}
+
+.wrapper > .container {
+   max-width: 80rem;
+}
+
+.sg > img {max-width: 50px; border-radius: 50px}
+a.sg {display: inline-block;}
+
+
+.wrapper {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    width: 100%
+}
+
+.wrapper .container {
+    max-width: 80rem
+}
+
+.wrapper>.container {
+    padding-bottom: 7.5rem;
+    padding-top: 7.5rem
+}
+
+.header {
+    background-color: #f4f5f6;
+    padding-top: 1rem
+}
+
+@media(min-width: 40rem) {
+    .header {
+        padding-top:5rem
+    }
+}
+
+.header+section {
+    border-top: 0
+}
+
+.header .container {
+    border-top: 0;
+    padding-bottom: 7.5rem;
+    padding-top: 7.5rem;
+    position: relative;
+    text-align: center
+}
+
+.header .title {
+    font-family: Gotham Rounded A,Gotham Rounded B,Helvetica Neue,Arial,sans-serif
+}
+
+
+
+.header .button {
+    margin-bottom: 4rem;
+    margin-top: 2rem
+}
+
+
+
+div#closed-sign {
+   background-color: #53ad4d;
+    border-radius: 15px;
+    border: 10px solid white;
+    color: white;
+    height: 11rem;
+    display: block;
+    padding:3rem;
+    font-size: 35pt;
+    width: 33rem;
+    margin-left: auto;
+    margin-right: auto;
+    transform: rotate(-10deg);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Nunito', cursive;
+    box-shadow: 5px 9px 17px 3px rgba(0,0,0,0.75);
+    transition-delay: 0.2s;
+    transition: 0.6s;
+}
+
+div#closed-sign:hover{
+    background-color: #e0665d;
+}
+
+h2 {
+
+text-align: center; 
+
+}
+
+.title {
+   font-size: 8rem;
+}
+
+.header {
+    padding-top: 0rem;
+}
+
+.header .container {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+}
+
+
+#closed-sign:before, #closed-sign:after {
+   position: absolute;
+   top: 0.17em;
+   left: 0;
+   width: 100%;
+    transition: 0.6s;
+    transition-delay: 0.2s;
+    box-sizing: border-box;
+}
+    
+#closed-sign:before {
+    opacity: 0;
+    content: "Close";
+}
+
+#closed-sign:after {
+    opacity: 1;
+    content: "Closing soon";
+}
+
+#closed-sign:hover:before {
+   opacity:1;
+}
+
+
+#closed-sign:hover:after {
+    opacity: 0;
+}
+
+
+.footer{
+    background-color: #f4f5f6;
+    padding: 3rem;
+}
+
+
+
+</style>
+</header>
+
+
+<body>
+ <main class=wrapper>
+ <nav class="navigation"></nav>
+ <header class="header" id="home"><section class="container"><h1 class="title">Hacktoberfail</h1>
+ <p>Hacktoberfest has a SPAM problem, consider asking them to have PRs labeled "spam" to count negatively toward user
+ total. "invalid" should still count 0, as user make mistake, but we need to deter bad actors. Hacktoberfest organisers
+ are <a href='https://hacktoberfest.digitalocean.com/hacktoberfest-update'>Working on it</a>but wont' change the
+ incentive until next year.</p>
+   </section></header>
+ <section class='container'>
+   <blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/hacktoberfest?ref_src=twsrc%5Etfw">@hacktoberfest</a> even please consider having PRs marked as &quot;spam&quot; count as &quot;-1&quot; or &quot;-2&quot; to discourage the &quot;send many and see what sticks&quot;.</p>&mdash; ​Matthias​ ​Bussonnier (@Mbussonn) <a href="https://twitter.com/Mbussonn/status/1311681489566752768?ref_src=twsrc%5Etfw">October 1, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+ </section>
+
+
+
+</main>
+</body>
+</html>
